@@ -1,0 +1,27 @@
+.loginPage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  .sampleLogin {
+    display: table;
+    .form-control {
+      margin-top: 15px;
+      label {
+        width: 100%;
+        float: left;
+        margin-bottom: 5px;
+      }
+      input {
+        padding: 0 8px;
+        height: 40px;
+        width: 250px;
+      }
+    }
+    button {
+      width: 250px;
+      padding: 8px;
+      margin-top: 25px;
+    }
+  }
+}
